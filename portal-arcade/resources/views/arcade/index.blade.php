@@ -24,7 +24,11 @@
         <span class="z-10">👑 Clash</span>
         <div class="absolute bottom-0 w-full h-1/2 bg-red-600 opacity-50 skew-y-6 transform translate-y-2"></div>
     </a>
-    
+    <a href="{{ route('arcade.rambo') }}" class="game-card bg-red-800 rounded-xl h-24 flex items-center justify-center text-white font-black text-xl shadow border-2 border-red-400 overflow-hidden relative">
+        <span class="z-10 italic drop-shadow-md">💥 COMANDO</span>
+        <div class="absolute inset-0 opacity-20 bg-[repeating-linear-gradient(45deg,transparent,transparent_10px,#000_10px,#000_20px)]"></div>
+    </a>
+
     <a href="{{ route('arcade.freefire') }}" class="game-card bg-orange-600 rounded-xl h-24 flex items-center justify-center text-white font-bold text-xl tracking-widest italic shadow border-2 border-yellow-400">🔥 FREE FIRE</a>
 </div>
 @endsection
